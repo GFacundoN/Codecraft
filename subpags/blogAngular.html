@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/stylesAngular.css">
+    <link rel="icon" href="../imags/logos/logo-blanco.ico">
+	<link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"> <!--iconos-->
+    <title>CodeCraft - Angular</title>
+</head>
+<body>
+    <header>
+		<a href="../index.html"><img src="../imags/logos/logo-cc-blanco.png" alt="" onclick="window.location.reload()" style="cursor: pointer;"></a>
+		<nav>
+			<a href="" style="margin-right: 2vw;">Contacto</a>
+			<a href="../index.html">Principal</a>
+		</nav>
+	</header>
+    <main>
+        <section class="banner">
+            <h1>¿Qué es Angular <br> y para qué se utiliza?</h1>
+            <img src="../imags/slider-logos/angular-logo.webp">
+        </section>
+        <section class="main-sec">
+            <aside>
+                <div class="contents-table">
+                    <div class="header-toc">
+                        <h4>Tabla de Contenidos</h4>
+                    </div>
+                    <div class="contents-list">
+                        <ul>
+                            <li>
+                                <a href="#q1">¿Qué es?</a>
+                            </li>
+                            <li>
+                                <a href="#q2">¿Para qué sirve?</a>
+                            </li>
+                            <li>
+                                <a href="#q3">¿Cómo se creó?</a>
+                            </li>
+                            <li>
+                                <a href="#q4">Su creador</a>
+                            </li>
+                            <li>
+                                <a href="#q5">Librerías y Frameworks</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="aside-img">
+                    <img src="../imags/slider-logos/angular-logo.webp" alt="">
+                    <p><i>Logo de JavaScript.</i></p>
+                </div>
+                <div class="aside-img">
+                    <img src="../imags/subpag-Angular/misko2010.jfif" alt="">
+                    <p><i>Miško Hevery, el prrncipal ceado de Angular, en 2010.</i></p>
+                </div>
+                <div class="aside-img">
+                    <img src="../imags/subpag-Angular/misko.jpg" alt="">
+                    <p><i>Miško Hevery en la actualidad.</i></p>
+                </div>
+                <div class="aside-img">
+                    <img src="../imags/subpag-Angular/AngularJS_logo_004.svg" alt="">
+                    <p><i>Logo de Angular Js.</i></p>
+                </div>
+                <div class="aside-img">
+                    <img src="../imags/subpag-Angular/rxjs-logo.svg" alt="">
+                    <p><i>Logo de RxJS.</i></p>
+                </div>
+                <div class="aside-img">
+                    <img src="../imags/subpag-Angular/angular mateial.png" alt="">
+                    <p><i>Logo de Angular Material</i></p>
+                </div>
+                
+            </aside>
+            <article>
+                <div class="body-text">
+                    <h1 id="q1">¿Qué es Angular?</h1>
+                    <p>Angular <b>es un framework de desarrollo web de código abierto</b> mantenido por Google, diseñado para facilitar la creación de aplicaciones web dinámicas y de una sola página (SPA). Lanzado inicialmente en 2010, Angular ha evolucionado significativamente y se basa en TypeScript, lo que permite a los desarrolladores aprovechar un lenguaje con tipado estático, mejorando así la calidad y mantenibilidad del código. <br>
+                    Una de las características más destacadas de Angular es su enfoque en la <b>arquitectura basada en componentes</b>, que permite a los desarrolladores crear aplicaciones modulares y reutilizables. Esto facilita la colaboración en equipos y mejora la escalabilidad de las aplicaciones. Además, Angular ofrece un potente sistema de <b>inclusión de dependencias</b>, que simplifica la gestión de servicios y módulos dentro de la aplicación. <br>
+                    Angular también incluye herramientas como <b>directivas, pipes y servicios</b>, que permiten a los desarrolladores crear funcionalidades complejas de manera más sencilla. Su sistema de enrutamiento facilita la navegación entre diferentes vistas y componentes, mejorando la experiencia del usuario. <br>
+                    
+                    <h1 id="q2" style="margin-top: 2vh;">¿Para qué sirve Angular?</h1>
+                    <p>Angular se utiliza principalmente para <b>desarrollar aplicaciones web de una sola página (SPA)</b> que ofrecen una experiencia de usuario fluida y dinámica. Gracias a su arquitectura basada en componentes, los desarrolladores pueden <b>dividir la aplicación en partes reutilizables</b>, lo que facilita la gestión del código y la colaboración en equipo. <br>
+                    Con Angular, es posible crear <b>interfaces de usuario interactivas</b> que responden rápidamente a las acciones del usuario, mejorando así la usabilidad de la aplicación. Además, Angular proporciona herramientas como <b>servicios y enrutamiento</b>, que permiten gestionar la lógica de negocio y la navegación de manera eficiente. <br>
+                    Angular también se utiliza en el desarrollo de <b>aplicaciones móviles híbridas</b> a través de Angular Native, lo que permite compartir código entre plataformas web y móviles. Su capacidad de trabajar con <b>APIs REST</b> y su integración con otras bibliotecas y frameworks hacen de Angular una opción robusta para proyectos empresariales y aplicaciones a gran escala. <br>
+                    
+                    <h1 id="q3" style="margin-top: 2vh;">¿Cómo se creó Angular?</h1>
+                    <p>Angular fue creado por un equipo de ingenieros de Google y se lanzó por primera vez en 2010 como <b>AngularJS</b>. El proyecto nació con el objetivo de facilitar el desarrollo de aplicaciones web de una sola página (SPA) al ofrecer una forma más estructurada y eficiente de construir interfaces de usuario dinámicas. <br>
+                    El diseño inicial de AngularJS se basó en la necesidad de crear aplicaciones más mantenibles y escalables. Los creadores se inspiraron en patrones de desarrollo como el <b>Modelo-Vista-Controlador (MVC)</b>, lo que permitió separar la lógica de negocio, la presentación y el control de la aplicación. <br>
+                    En 2016, Google lanzó una versión reescrita y completamente nueva llamada <b>Angular</b> (a secas), que se basa en TypeScript, un superset de JavaScript. Esta nueva versión fue desarrollada para mejorar el rendimiento y la experiencia de desarrollo, y se enfocó en una arquitectura más moderna y modular. <br>
+                    Desde su lanzamiento, Angular ha recibido actualizaciones periódicas que han agregado nuevas características y mejoras, manteniéndolo relevante en el ecosistema de desarrollo web. La comunidad ha crecido significativamente, contribuyendo con bibliotecas, herramientas y recursos que han enriquecido el uso de Angular en proyectos de todo tipo.</p>
+                    
+                    <h1 id="q4" style="margin-top: 2vh;">¿Quién es el creador de Angular?</h1>
+                    <p><b>Miško Hevery</b> es un ingeniero de software y uno de los principales creadores de <b>Angular</b>. Nació en Eslovenia y se trasladó a Estados Unidos, donde trabajó en Google. Miško fue parte del equipo que desarrolló la primera versión de Angular, conocida como AngularJS, que se lanzó en 2010. <br>
+                    Hevery ha sido un defensor del desarrollo basado en componentes y ha influido en la manera en que los desarrolladores abordan la construcción de aplicaciones web modernas. Su visión sobre la modularidad y la reutilización de componentes ha sido fundamental en el diseño de Angular. <br>
+                    A lo largo de su carrera, Miško ha estado involucrado en varios proyectos relacionados con la web y ha contribuido a la comunidad de desarrollo de software. Es conocido por sus charlas y presentaciones sobre Angular y su enfoque en la optimización del rendimiento y la escalabilidad en aplicaciones web. <br>
+                    Hoy en día, Miško sigue siendo una figura influyente en la comunidad de Angular y en el desarrollo de software, participando en la evolución del framework y apoyando a nuevos desarrolladores a través de conferencias y recursos educativos.</p>
+                    
+                    <h1 id="q5" style="margin-top: 2vh;">Librerías y Frameworks populares relacionados con Angular:</h1>
+                    <p>Aquí tienes información sobre algunas de las <b>librerías y frameworks más conocidos que complementan Angular</b>:</p>
+                    <ul>
+                        <li><p><b>Angular Material:</b> Es una librería de componentes de UI que implementa las directrices de Material Design de Google. Angular Material proporciona un conjunto de componentes preconstruidos que facilitan la creación de aplicaciones visualmente atractivas y coherentes.</p></li>
+                        <li><p><b>RxJS:</b> Es una librería para programación reactiva que se utiliza ampliamente en Angular. RxJS permite manejar eventos asíncronos y datos de manera eficiente mediante el uso de observables, lo que facilita la gestión de flujos de datos en aplicaciones complejas.</p></li>
+                        <li><p><b>Ngrx:</b> Es una librería inspirada en Redux para manejar el estado de las aplicaciones Angular. Proporciona una arquitectura predecible y escalable para gestionar el estado de la aplicación de manera eficiente, especialmente en aplicaciones grandes y complejas.</p></li>
+                        <li><p><b>Angular Universal:</b> Es una herramienta que permite la renderización del lado del servidor (SSR) de aplicaciones Angular. Esto mejora el rendimiento y la optimización para motores de búsqueda (SEO), ya que genera el HTML de la aplicación en el servidor antes de enviarlo al cliente.</p></li>
+                        <li><p><b>PrimeNG:</b> Es un conjunto de componentes UI de alta calidad para Angular. PrimeNG incluye una amplia variedad de componentes, como tablas, gráficos y formularios, que son fáciles de usar y personalizar para crear interfaces de usuario modernas y ricas.</p></li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+		<p id="subp">
+			Este sitio fue diseñado y programado por:
+		</p>
+		<section>
+			<div>
+				<img src="../imags/mainpag/pfpFacu.jpg" alt="">
+				<article>
+					<h2>Facundo Gandolfo</h2>
+                    <p>Estudiante de 17 años</p>
+                    <p>Programó y adaptó esta página a celulares.</p>
+                    <p>E.E.S.T. n°7 6to Programación</p>
+				</article>
+			</div>
+			<div>
+				<img src="../imags/mainpag/pfpLauti.jpg" alt="">
+				<article>
+					<h2>Lautaro Borges</h2>
+                    <p>Estudiante de 18 años</p>
+                    <p>Diseñó, programó y adaptó esta página a celulares.</p>
+                    <p>E.E.S.T. n°7 6to Programación</p>
+				</article>
+			</div>
+		</section>
+		<div id="logo-socials">
+			<img src="../imags/logos/logo-cc-blanco.png"/>
+			<div id="socials">
+                <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+				<a href="https://x.com/GFacundoN" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+				<a href="https://github.com/facug007" target="_blank"><i class="fa-brands fa-github"></i></a>
+				<a href="https://www.linkedin.com/in/facundo-nicolas-gandolfo-6b9a17312" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+			</div>
+		</div>
+		<div id="creditos">
+			<p>&copy;  Todos los derechos reservados 2024</p>
+			<p>Diseñado por<img src="../imags/borges.png" style="height: 1em;"></p>
+		</div>
+	</footer>
+</body>
+<script src="https://kit.fontawesome.com/f498fe8823.js" crossorigin="anonymous"></script>   <!--iconos-->
+</html>

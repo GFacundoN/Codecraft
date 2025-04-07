@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/projects.css">
+    <link rel="icon" href="imags/logos/logo-blanco.ico">
+	<link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"> <!--iconos-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=pace"/>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
+    <title>Recomendaciones</title>
+</head>
+<body>
+    <div id="animated-bg"></div>
+
+	<header>
+		<a href="index.html"><img src="imags/logos/logo-cc-blanco.png"></a>
+		<nav>
+			<a href="contacto.html">Contacto</a>
+			<a href="index.html">Principal</a>
+		</nav>
+	</header>
+    <main>
+        <h2>¿Estás perdido o no sabés qué hacer? Este es tu lugar!</h2>
+        <p>Estas son algunas recomendaciones, cursos, proyectos guiados, entre otros contenidos de distintos creadores alrededor del mundo.</p>
+        <section>
+            <div class="card">
+                <img src="imags/pfps/midudevPfp.jpg" alt="" class="pfp">
+                <h2>Curso de GIT y GITHUB DESDE CERO Para Aportar a Proyectos</h2>
+                <p>midudev - español</p>
+                <a href="https://youtu.be/niPExbK8lSw?si=BdQ-_JtssdxTCg1X" target="_blank">
+                    <img src="imags/thumbnails/cursoGitThumbnail.jpg">
+                </a>
+                <div>
+                    <article>
+                        <span class="material-symbols-outlined">pace</span>
+                        <p>1:39:30</p>
+                    </article>
+                    <article>
+                        <p class="mensaje" id="mensaje1"></p>
+                        <ion-icon name="copy-outline" onclick="copiarEnlace( 'https://youtu.be/niPExbK8lSw?si=BdQ-_JtssdxTCg1X', 'mensaje1')"></ion-icon>
+                    </article>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imags/pfps/ryiShowPfp.jpg" alt="" class="pfp">
+                <h2>Cómo hacer un juego 2D en Java #1 - El mecanismo de los juegos 2D</h2>
+                <p>RyiShow - inglés</p>
+                <a href="https://youtu.be/om59cwR7psI?si=yn7V1pXhEzKWCI0y" target="_blank">
+                    <img src="imags/thumbnails/java2dGameThumbnail.jpg">
+                </a>
+                <div>
+                    <article>
+                        <span class="material-symbols-outlined">pace</span>
+                        <p>66 videos</p>
+                    </article>
+                    <article>
+                        <p class="mensaje" id="mensaje2"></p>
+                        <ion-icon name="copy-outline" onclick="copiarEnlace( 'https://youtu.be/om59cwR7psI?si=yn7V1pXhEzKWCI0y', 'mensaje2')"></ion-icon>
+                    </article>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imags/pfps/kennyYipCodingpfp.jpg" alt="" class="pfp">
+                <h2> Learn how to create a game of snake in Java using the awt and swing graphics.</h2>
+                <p>Kenny Yip Coding - inglés</p>
+                <a href="https://youtu.be/Y62MJny9LHg?si=xaq8wTRv0pxhztWj" target="_blank">
+                    <img src="imags/thumbnails/snakeInJavaThumbnail.jpg">
+                </a>
+                <div>
+                    <article>
+                        <span class="material-symbols-outlined">pace</span>
+                        <p>42:40</p>
+                    </article>
+                    <article>
+                        <p class="mensaje" id="mensaje3"></p>
+                        <ion-icon name="copy-outline" onclick="copiarEnlace( 'https://youtu.be/Y62MJny9LHg?si=xaq8wTRv0pxhztWj', 'mensaje3')"></ion-icon>
+                    </article>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imags/pfps/sajidPfp.jpg" alt="" class="pfp">
+                <h2>The Easiest Way to Build Websites - Design first, build later.</h2>
+                <p>Sajid - inglés</p>
+                <a href="https://youtu.be/OjEg0IBR_ak?si=z7gaWKMGhAb8OD_k" target="_blank">
+                    <img src="imags/thumbnails/designFirstBuildLaterThumbnail.jpg">
+                </a>
+                <div>
+                    <article>
+                        <span class="material-symbols-outlined">pace</span>
+                        <p>10:55</p>
+                    </article>
+                    <article>
+                        <p class="mensaje" id="mensaje4"></p>
+                        <ion-icon name="copy-outline" onclick="copiarEnlace( 'https://youtu.be/OjEg0IBR_ak?si=z7gaWKMGhAb8OD_k', 'mensaje4')"></ion-icon>
+                    </article>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imags/pfps/alexCGDesignPfp.jpg" alt="" class="pfp">
+                <h2>Aprende Media Queries en CSS | Responsive Design</h2>
+                <p>AlexCG Design - español</p>
+                <a href="https://youtu.be/yneuaVjotO8?si=DO7EQdK_JLiP28n2" target="_blank">
+                    <img src="imags/thumbnails/aprendeResponsiveDesignThumbnail.jpg">
+                </a>
+                <div>
+                    <article>
+                        <span class="material-symbols-outlined">pace</span>
+                        <p>14:13</p>
+                    </article>
+                    <article>
+                        <p class="mensaje" id="mensaje5"></p>
+                        <ion-icon name="copy-outline" onclick="copiarEnlace( 'https://youtu.be/yneuaVjotO8?si=DO7EQdK_JLiP28n2', 'mensaje5')"></ion-icon>
+                    </article>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imags/pfps/moureDevPfp.jpg" alt="" class="pfp">
+                <h2>Curso de GIT y GITHUB DESDE CERO Para Aportar a Proyectos</h2>
+                <p>Moure Dev - español</p>
+                <a href="https://youtu.be/6cnFl9aHD5Y?si=Gp9m0bD9ruACeDKk" target="_blank">
+                    <img src="imags/thumbnails/primerosPasosJavascriptThumbnail.jpg">
+                </a>
+                <div>
+                    <article>
+                        <span class="material-symbols-outlined">pace</span>
+                        <p>1:08:39</p>
+                    </article>
+                    <article>
+                        <p class="mensaje" id="mensaje6"></p>
+                        <ion-icon name="copy-outline" onclick="copiarEnlace( 'https://youtu.be/6cnFl9aHD5Y?si=Gp9m0bD9ruACeDKk', 'mensaje6')"></ion-icon>
+                    </article>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imags/pfps/broCodePfp.jpg" alt="" class="pfp">
+                <h2>Java Pong Game Tutorial for Beginners - Java Swing</h2>
+                <p>Bro Code - inglés</p>
+                <a href="https://youtu.be/oLirZqJFKPE?si=4ZfrDsEEdQKNwmjI" target="_blank">
+                    <img src="imags/thumbnails/codePongInJavaThumbnail.jpg">
+                </a>
+                <div>
+                    <article>
+                        <span class="material-symbols-outlined">pace</span>
+                        <p>1:07:44</p>
+                    </article>
+                    <article>
+                        <p class="mensaje" id="mensaje7"></p>
+                        <ion-icon name="copy-outline" onclick="copiarEnlace( 'https://youtu.be/oLirZqJFKPE?si=4ZfrDsEEdQKNwmjI', 'mensaje7')"></ion-icon>
+                    </article>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imags/pfps/midudevPfp.jpg" alt="" class="pfp">
+                <h2>Tutorial del juego SUPER MARIO BROS con HTML CSS JavaScript</h2>
+                <p>midudev - español</p>
+                <a href="https://youtu.be/RBYCgS8Et7Y?si=MYS8PZWTaa9SK8QS" target="_blank">
+                    <img src="imags/thumbnails/superMarioBrosenJavascriptThumbnail.jpg">
+                </a>
+                <div>
+                    <article>
+                        <span class="material-symbols-outlined">pace</span>
+                        <p>1:40:49</p>
+                    </article>
+                    <article>
+                        <p class="mensaje" id="mensaje8"></p>
+                        <ion-icon name="copy-outline" onclick="copiarEnlace( 'https://youtu.be/RBYCgS8Et7Y?si=MYS8PZWTaa9SK8QS', 'mensaje8')"></ion-icon>
+                    </article>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imags/pfps/jesseShowalterPfp.jpg" alt="" class="pfp">
+                <h2>60-30-10 Color Rule | Front-End Web Design</h2>
+                <p>Jesse Showalter - inglés</p>
+                <a href="https://youtu.be/UWwNIMHFdW4?si=fRaDjpTrQtMcHZX7" target="_blank">
+                    <img src="imags/thumbnails/603010ColorRuleThumbnail.jpg">
+                </a>
+                <div>
+                    <article>
+                        <span class="material-symbols-outlined">pace</span>
+                        <p>6:17</p>
+                    </article>
+                    <article>
+                        <p class="mensaje" id="mensaje9"></p>
+                        <ion-icon name="copy-outline" onclick="copiarEnlace( 'https://youtu.be/UWwNIMHFdW4?si=fRaDjpTrQtMcHZX7', 'mensaje9')"></ion-icon>
+                    </article>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imags/pfps/soyDaltoPfp.jpg" alt="" class="pfp">
+                <h2>Curso de VISUAL STUDIO CODE desde CERO (Completo)</h2>
+                <p>Soy Dalto - español</p>
+                <a href="https://youtu.be/TbzrOz8HbFM?si=XZhz7aayWNLQ_Rfk" target="_blank">
+                    <img src="imags/thumbnails/vscCodeDesdeCeroThumbnail.jpg">
+                </a>
+                <div>
+                    <article>
+                        <span class="material-symbols-outlined">pace</span>
+                        <p>2:20:02</p>
+                    </article>
+                    <article>
+                        <p class="mensaje" id="mensaje10"></p>
+                        <ion-icon name="copy-outline" onclick="copiarEnlace( 'https://youtu.be/TbzrOz8HbFM?si=XZhz7aayWNLQ_Rfk', 'mensaje10')"></ion-icon>
+                    </article>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imags/pfps/codexCommunityPfp.jpg" alt="" class="pfp">
+                <h2>Best Web Design Resources 2024 Worth Bookmarking</h2>
+                <p>Codex Community - inglés</p>
+                <a href="https://youtu.be/7hgIzaifLN4?si=POM_fhJJfO4hNcHT" target="_blank">
+                    <img src="imags/thumbnails/bestWebDesignResourcesThumbnail.jpg">
+                </a>
+                <div>
+                    <article>
+                        <span class="material-symbols-outlined">pace</span>
+                        <p>7:02</p>
+                    </article>
+                    <article>
+                        <p class="mensaje" id="mensaje11"></p>
+                        <ion-icon name="copy-outline" onclick="copiarEnlace( 'https://youtu.be/7hgIzaifLN4?si=POM_fhJJfO4hNcHT', 'mensaje11')"></ion-icon>
+                    </article>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imags/pfps/clearCodePfp.jpg" alt="" class="pfp">
+                <h2>Creating a Stardew Valley inspired game in Python</h2>
+                <p>Clear Code - inglés</p>
+                <a href="https://youtu.be/T4IX36sP_0c?si=jHhL1YnAr5C3kNrN" target="_blank">
+                    <img src="imags/thumbnails/pydewValleyThumbnail.jpg">
+                </a>
+                <div>
+                    <article>
+                        <span class="material-symbols-outlined">pace</span>
+                        <p>6:44:12</p>
+                    </article>
+                    <article>
+                        <p class="mensaje" id="mensaje12"></p>
+                        <ion-icon name="copy-outline" onclick="copiarEnlace( 'https://youtu.be/T4IX36sP_0c?si=jHhL1YnAr5C3kNrN', 'mensaje12')"></ion-icon>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+		<p id="subp">
+			Este sitio fue diseñado y programado por:
+		</p>
+		<section>
+			<div>
+				<img src="imags/mainpag/pfpFacu.jpg" alt="">
+				<article>
+					<h2>Facundo Gandolfo</h2>
+                    <p>Estudiante de 17 años</p>
+                    <p>Diseñó, programó y adaptó esta página a celulares.</p>
+                    <p>E.E.S.T. n°7 6to Programación</p>
+				</article>
+			</div>
+		</section>
+		<div id="logo-socials">
+			<img src="imags/logos/logo-cc-blanco.png"/>
+			<div id="socials">
+				<a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+				<a href="https://x.com/GFacundoN" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+				<a href="https://github.com/facug007" target="_blank"><i class="fa-brands fa-github"></i></a>
+				<a href="https://www.linkedin.com/in/facundo-nicolas-gandolfo-6b9a17312" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+			</div>
+		</div>
+		<div id="creditos">
+			<p>&copy;  Todos los derechos reservados 2024</p>
+			<p>Diseñado por <a href="https://www.instagram.com/facug.007/" target="_blank" rel="noopener noreferrer"><img src="imags/gandolfo-blanco.png" style="height: 1em;"></a></p>
+		</div>
+	</footer>
+	<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+	<script src="https://kit.fontawesome.com/f498fe8823.js" crossorigin="anonymous"></script>	<!--iconos-->
+    <script>
+        function copiarEnlace(enlace, idMensaje) {
+          navigator.clipboard.writeText(enlace).then(() => {
+            const mensaje = document.getElementById(idMensaje);
+            mensaje.textContent = '¡Enlace copiado!';
+            // Limpia el mensaje después de 2 segundos
+            setTimeout(() => {
+              mensaje.textContent = '';
+            }, 2000);
+          }).catch(err => {
+            console.error('Error al copiar el enlace: ', err);
+            document.getElementById(idMensaje).textContent = 'Hubo un error al copiar.';
+          });
+        }
+      </script>
+</body>
+</html>

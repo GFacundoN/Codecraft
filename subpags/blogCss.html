@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/stylesCss.css">
+    <link rel="icon" href="../imags/logos/logo-blanco.ico">
+	<link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"> <!--iconos-->
+    <title>CodeCraft - Css</title>
+</head>
+<body>
+    <header>
+		<a href="../index.html"><img src="../imags/logos/logo-cc-blanco.png" alt="" onclick="window.location.reload()" style="cursor: pointer;"></a>
+		<nav>
+			<a href="" style="margin-right: 2vw;">Contacto</a>
+			<a href="../index.html">Principal</a>
+		</nav>
+	</header>
+    <main>
+        <section class="banner">
+            <h1>¿Qué es Css <br> y para qué se utiliza?</h1>
+            <img src="../imags/slider-logos/logo-css.png">
+        </section>
+        <section class="main-sec">
+            <aside>
+                <div class="contents-table">
+                    <div class="header-toc">
+                        <h4>Tabla de Contenidos</h4>
+                    </div>
+                    <div class="contents-list">
+                        <ul>
+                            <li>
+                                <a href="#q1">¿Qué es?</a>
+                            </li>
+                            <li>
+                                <a href="#q2">¿Para qué sirve?</a>
+                            </li>
+                            <li>
+                                <a href="#q3">¿Cómo se creó?</a>
+                            </li>
+                            <li>
+                                <a href="#q4">Su creador</a>
+                            </li>
+                            <li>
+                                <a href="#q5">Librerías y Frameworks</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="aside-img">
+                    <img src="../imags/slider-logos/logo-css.png" alt="">
+                    <p><i>Logo de Css.</i></p>  
+                </div>
+                <div class="aside-img">
+                    <img src="../imags/subpag-css/bert.jpg" alt="">
+                    <p><i>Bert Bos, creador de Css.</i></p>
+                </div>
+                <div class="aside-img">
+                    <img src="../imags/subpag-css/nzEoQF1Y_400x400.jpg" alt="">
+                    <p><i>Håkon Wium Lie, creador de Css.</i></p>
+                </div>
+                <div class="aside-img">
+                    <img src="../imags/subpag-css/w3c-blue.svg" alt="">
+                    <p><i>Logo de la empresa Netscape Communications Corporation.</i></p>
+                </div>
+                <div class="aside-img">
+                    <img src="../imags/subpag-css/taiwwind.png" alt="">
+                    <p><i>Logo de Tailwind CSSs.</i></p>
+                </div>
+                <div class="aside-img">
+                    <img src="../imags/subpag-css/Bootstrap_logo.svg" alt="">
+                    <p><i>Logo de Bootstrap.</i></p>
+                </div>
+                
+            </aside>
+            <article>
+                <div class="body-text">
+                    <h1 id="q2">¿Qué es CSS?</h1>
+                    <p>CSS, o <b>Cascading Style Sheets</b>, es un lenguaje de hojas de estilo utilizado para describir la presentación y el diseño de un documento HTML. Desde su creación en los años 90, CSS ha evolucionado para convertirse en una herramienta fundamental para el desarrollo web, permitiendo a los diseñadores y desarrolladores separar el contenido de la presentación, lo que resulta en un código más limpio y mantenible. <br>
+                    CSS proporciona una <b>gran flexibilidad en el diseño</b>, permitiendo el control sobre aspectos como colores, fuentes, márgenes, alineaciones y efectos visuales. Con CSS, se pueden crear diseños responsivos que se adaptan a diferentes dispositivos y tamaños de pantalla, mejorando la experiencia del usuario. <br>
+                    Una de las características más potentes de CSS es la posibilidad de utilizar <b>selectores y propiedades</b> para aplicar estilos específicos a elementos HTML, facilitando la creación de estilos complejos con poco código. Además, con la llegada de CSS3, se han introducido nuevas características como transiciones, animaciones y gradientes, que permiten enriquecer visualmente las aplicaciones web. <br>
+                    
+                    <h1 id="q2" style="margin-top: 2vh;">¿Para qué sirve CSS?</h1>
+                    <p>CSS se utiliza para <b>definir la apariencia y el diseño de las páginas web</b>. Permite a los desarrolladores y diseñadores separar el contenido de la presentación, lo que resulta en un código más limpio y fácil de mantener. Con CSS, se pueden <b>establecer estilos para colores, fuentes, márgenes, y layouts</b>, lo que mejora la estética y la usabilidad de los sitios web. <br>
+                    Además, CSS permite la creación de <b>diseños responsivos</b> que se adaptan a diferentes tamaños de pantalla y dispositivos, lo que es fundamental en la era actual de dispositivos móviles. Utilizando técnicas como las <b>media queries</b>, los desarrolladores pueden ajustar los estilos según el dispositivo del usuario. <br>
+                    CSS también incluye características avanzadas como <b>transiciones y animaciones</b>, que permiten enriquecer la experiencia del usuario al hacer que las interacciones sean más fluidas y atractivas. Además, existen <b>frameworks y preprocesadores</b> como Bootstrap y Sass que simplifican el desarrollo y mejoran la eficiencia del proceso de diseño. <br>
+                    
+                    <h1 id="q3" style="margin-top: 2vh;">¿Cómo se creó CSS?</h1>
+                    <p>CSS fue desarrollado por Håkon Wium Lie y Bert Bos en 1996, como una respuesta a la necesidad de mejorar la presentación de documentos HTML. Antes de CSS, el diseño de páginas web era muy limitado y estaba intrínsecamente ligado al contenido, lo que dificultaba la creación de estilos visuales coherentes y atractivos. <br>
+                    La idea detrás de CSS era permitir a los diseñadores y desarrolladores <b>separar la estructura del contenido de su presentación</b>, facilitando así la creación de diseños más complejos y estilizados. <br>
+                    CSS se lanzó oficialmente como un estándar en 1996 y ha pasado por varias actualizaciones a lo largo de los años, incluyendo CSS2 en 1998 y CSS3 en 1999, que introdujeron nuevas características y mejoras. La evolución de CSS ha permitido la inclusión de <b>módulos</b> que abordan diferentes aspectos del diseño, como flexbox, grid, y animaciones, mejorando la capacidad de los desarrolladores para crear interfaces web responsivas y dinámicas. <br>
+                    
+                    <h1 id="q4" style="margin-top: 2vh;">¿Quiénes son Håkon Wium Lie y Bert Bos?</h1>
+                    <p><b>Håkon Wium Lie</b> es un informático noruego conocido como uno de los creadores de <b>CSS</b>. Nació el 9 de agosto de 1971 en Oslo, Noruega. Lie es un defensor del diseño web y ha trabajado incansablemente para mejorar la presentación de documentos en la web. Se graduó en Ciencias de la Computación en la Universidad de Oslo y ha sido un influyente defensor de estándares abiertos en la web. <br>
+                    Lie introdujo la idea de CSS en 1994 mientras trabajaba en el CERN, y posteriormente colaboró con Bert Bos para desarrollar y estandarizar el lenguaje. Su trabajo ha sido fundamental en la evolución del diseño web, permitiendo a los desarrolladores crear experiencias visuales atractivas y responsivas. <br>
+                    Por otro lado, <b>Bert Bos</b> es un científico informático holandés que ha jugado un papel crucial en el desarrollo de CSS. Nació el 27 de enero de 1966 en los Países Bajos. Bos se unió al equipo de trabajo de CSS junto a Lie y ha sido instrumental en la evolución del lenguaje a lo largo de los años, colaborando en la creación de varios módulos de CSS. <br>
+                    Ambos han trabajado para la <b>W3C (World Wide Web Consortium)</b>, donde han promovido el uso de estándares web abiertos. Su legado se puede ver en la amplia adopción de CSS en el desarrollo web moderno, que ha permitido una mayor creatividad y flexibilidad en el diseño de sitios web. <br>
+                    Actualmente, Håkon Wium Lie y Bert Bos continúan contribuyendo al mundo de la informática y la web, siendo figuras respetadas y reconocidas en la comunidad tecnológica.</p>
+                    
+                    <h1 id="q5" style="margin-top: 2vh;">Librerías y Frameworks populares de CSS:</h1>
+                    <p>Aquí tienes información sobre algunas de las <b>librerías y frameworks más conocidos de CSS</b>:</p>
+                    <ul>
+                        <li><p><b>Bootstrap:</b> Bootstrap es un framework de CSS desarrollado por Twitter que facilita la creación de diseños responsivos y atractivos. Ofrece una amplia gama de componentes predefinidos, como botones, formularios, y menús, que permiten a los desarrolladores construir sitios web rápidamente y con un diseño consistente.</p></li>
+                        <li><p><b>Tailwind CSS:</b> Tailwind CSS es un framework de utilidad que permite a los desarrolladores crear diseños personalizados sin tener que salir de su HTML. Utiliza clases utilitarias para aplicar estilos específicos, lo que resulta en un enfoque altamente flexible y eficiente para el diseño de interfaces.</p></li>
+                        <li><p><b>Foundation:</b> Foundation es un framework de CSS desarrollado por ZURB que proporciona un conjunto de herramientas para construir aplicaciones web responsivas. Incluye componentes modulares y es conocido por su enfoque en la accesibilidad y la personalización, lo que lo hace ideal para proyectos complejos.</p></li>
+                        <li><p><b>Bulma:</b> Bulma es un framework CSS basado en Flexbox que facilita la creación de interfaces web modernas y responsivas. Es ligero y fácil de usar, lo que lo convierte en una opción popular para desarrolladores que buscan un framework simple pero potente.</p></li>
+                        <li><p><b>Materialize:</b> Materialize es un framework CSS basado en el diseño Material de Google. Proporciona componentes y estilos que siguen las pautas de diseño Material, permitiendo a los desarrolladores crear aplicaciones web con una estética moderna y coherente.</p></li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+		<p id="subp">
+			Este sitio fue diseñado y programado por:
+		</p>
+		<section>
+			<div>
+				<img src="../imags/mainpag/pfpFacu.jpg" alt="">
+				<article>
+					<h2>Facundo Gandolfo</h2>
+                    <p>Estudiante de 17 años</p>
+                    <p>Programó y adaptó esta página a celulares.</p>
+                    <p>E.E.S.T. n°7 6to Programación</p>
+				</article>
+			</div>
+			<div>
+				<img src="../imags/mainpag/pfpLauti.jpg" alt="">
+				<article>
+					<h2>Lautaro Borges</h2>
+                    <p>Estudiante de 18 años</p>
+                    <p>Diseñó, programó y adaptó esta página a celulares.</p>
+                    <p>E.E.S.T. n°7 6to Programación</p>
+				</article>
+			</div>
+		</section>
+		<div id="logo-socials">
+			<img src="../imags/logos/logo-cc-blanco.png"/>
+			<div id="socials">
+                <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+				<a href="https://x.com/GFacundoN" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+				<a href="https://github.com/facug007" target="_blank"><i class="fa-brands fa-github"></i></a>
+				<a href="https://www.linkedin.com/in/facundo-nicolas-gandolfo-6b9a17312" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+			</div>
+		</div>
+		<div id="creditos">
+			<p>&copy;  Todos los derechos reservados 2024</p>
+			<p>Diseñado por<img src="../imags/borges.png" style="height: 1em;"></p>
+		</div>
+	</footer>
+</body>
+<script src="https://kit.fontawesome.com/f498fe8823.js" crossorigin="anonymous"></script>   <!--iconos-->
+</html>
